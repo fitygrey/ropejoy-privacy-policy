@@ -46,8 +46,8 @@ await cp(path.join(clientDirectory, 'og.png'), path.join(outputDirectory, 'og.pn
 await writeFile(path.join(outputDirectory, '.nojekyll'), '');
 
 const server = spawn(
-  process.platform === 'win32' ? 'npm.cmd' : 'npm',
-  ['run', 'start', '--', '--port', String(port)],
+  process.execPath,
+  ['node_modules/wrangler/bin/wrangler.js', 'dev', '--config', 'dist/server/wrangler.json', '--port', String(port)],
   { cwd: projectRoot, stdio: ['ignore', 'pipe', 'pipe'] },
 );
 
