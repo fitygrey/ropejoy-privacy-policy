@@ -17,13 +17,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'RopeJoy — Every jump, beautifully counted.',
     description: 'Privacy, support, and product information for the RopeJoy Apple Watch jump-rope companion.',
-    images: [{ url: '/ropejoy-privacy-policy/og.png', width: 1200, height: 630, alt: 'RopeJoy' }],
+    images: [{ url: 'og.png', width: 1200, height: 630, alt: 'RopeJoy' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'RopeJoy — Every jump, beautifully counted.',
     description: 'Privacy, support, and product information for the RopeJoy Apple Watch jump-rope companion.',
-    images: ['/ropejoy-privacy-policy/og.png'],
+    images: ['og.png'],
   },
 };
 
