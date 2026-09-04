@@ -13,7 +13,7 @@ export default function PrivacyPage() {
       title="Privacy Policy"
       intro="RopeJoy is designed to keep your jump-rope workouts on your own Apple devices. This policy explains what the app processes and why."
     >
-      <p className="effective-date">Effective date: September 2, 2026</p>
+      <p className="effective-date">Effective date: September 5, 2026</p>
 
       <section>
         <h2>1. Information RopeJoy processes</h2>
@@ -35,9 +35,14 @@ export default function PrivacyPage() {
       </section>
 
       <section>
-        <h2>3. Apple Health</h2>
+        <h2>Local backups</h2>
+        <p>Starting with version 1.0 build 2, RopeJoy marks its local workout data directories as excluded from system backups, including records waiting to sync on Apple Watch. Local records may not be recoverable after uninstalling the app or replacing your device. This setting does not manage copies already saved in Apple Health; use the Health app to manage those records.</p>
+      </section>
+
+      <section>
+        <h2>3. Apple Health and HealthKit</h2>
         <p>
-          With your permission, RopeJoy reads heart rate and active energy during an Apple Watch workout and saves the completed jump-rope workout to Apple Health. Health data is used only to provide workout features and is not used for advertising, marketing, or sale.
+          With your permission, RopeJoy uses HealthKit to read heart rate and active energy during an Apple Watch workout and saves the completed jump-rope workout to Apple Health. Health data is used only to provide workout features and is not used for advertising, marketing, or sale.
         </p>
         <p>You can review or revoke Health access at any time in the Health app or iOS Settings.</p>
       </section>

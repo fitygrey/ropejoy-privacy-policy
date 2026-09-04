@@ -43,7 +43,7 @@ export default function SupportPage() {
 
       <section>
         <h2>Heart rate or calories are missing</h2>
-        <p>Check RopeJoy&apos;s Health permissions in the Health app and ensure the watch fits snugly. Jump counting can still work without Health access, but heart rate, calories, and saving the workout to Apple Health may be unavailable.</p>
+        <p>Check RopeJoy&apos;s Health permissions in the Health app and ensure the watch fits snugly. Without permission to save workouts, heart rate, calories, and background tracking may be unavailable. Keep RopeJoy in the foreground on your watch. You can read more in Profile → Apple Health &amp; HealthKit on iPhone.</p>
       </section>
 
       <section>
@@ -53,7 +53,7 @@ export default function SupportPage() {
 
       <section>
         <h2>How do I change my daily goal?</h2>
-        <p>On iPhone, open <strong>My → Daily Goal</strong>. Changes sync automatically to Apple Watch when the devices can communicate.</p>
+        <p>On iPhone, open <strong>Profile → Daily Goal</strong>. Changes sync automatically to Apple Watch when the devices can communicate.</p>
       </section>
 
       <section>
